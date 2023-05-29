@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.avatarContainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-position: center;
+  }
+
+.draggable {
+    /* cursor: move; fallback: no `url()` support or images disabled */
+    cursor: grab;
+    /* W3C standards syntax, all modern browser */
+}
+
+.draggable:active {
+    cursor: grabbing;
+}
