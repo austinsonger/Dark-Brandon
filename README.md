@@ -1,13 +1,15 @@
-# InsulaAI
+# InsulaAI 🧠
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/zmoustafa/insulaai)
+
 - Insula is an interactive fully autonomous AI twitch streamer
 - Insula responds to Twitch chat verbally and with animations
 - Insula is live 24/7 at https://www.twitch.tv/insulaai
 
 ## Installation Instructions
 
-- Ensure that Node is installed 
+- Ensure that ![Node.js](https://nodejs.org/en) is installed
 - Create a .env file in the root directory based on `.env.example`. You will need credentials for OpenAI, Twitch, and Microsoft Azure Speech Services
-- Install pnpm: 
+- Install ![pnpm](https://pnpm.io/):
 
 ```sh
 curl -fsSL https://get.pnpm.io/install.sh | sh -
