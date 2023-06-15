@@ -21,7 +21,7 @@ pnpm i && pnpm run start
 ```
 - On localhost:3000, a web app will spawn that looks like the following:
 
-![insula_screenshot](./images/insula_screenshot.png )
+![insula_screenshot](./images/DarkBrandon.png )
 
 - Install [OBS Studio](https://obsproject.com/)
 - Select `Browser` Input Source, set it to `http://localhost:3000/`
